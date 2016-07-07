@@ -44,7 +44,7 @@ module.exports = class TwilioBot {
 
     processMessage(req, res) {
 
-        console.log("req is " +JSON.stringify(req.body));
+        console.log("req body is " +JSON.stringify(req.body));
 
         if (this._botConfig.devConfig) {
             console.log("body", req.body);
